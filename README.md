@@ -1,6 +1,6 @@
-# Integrated DGR website preview
+# Integrated DRG website preview
 
-An institutional website preview for the **Liberia Institute for Integrated Development, Democracy, Rights & Governance**. It uses the supplied logo at `assets/dgr_logo.jpeg` and is intentionally configured as a no-index demonstration site.
+An institutional website preview for the **Liberia Institute for Integrated Development, Democracy, Governance & Rights**. It uses the supplied logo at `assets/drg_logo.jpeg` and is intentionally configured as a no-index demonstration site.
 
 ## Run locally
 
