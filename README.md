@@ -13,9 +13,9 @@ Build a production bundle with `npm run build`, then test it with `npm run previ
 
 ## Admin dashboard, Neon, and submissions
 
-The protected dashboard is available at `/admin`. It includes a sidebar for the live overview, website inquiries, and a JSON content manager. Contact forms, newsletter subscriptions, and anonymous page-view events are written to Neon through Vercel serverless functions. The dashboard reads the latest database data whenever it is refreshed.
+The protected dashboard is available at `/admin`. Its sidebar provides live overview, detailed analytics, content studio, programs, news and press, resources, team, policies, inquiry, newsletter subscriber, and site settings areas. Contact forms, newsletter subscriptions, and anonymous page-view events are written to Neon through Vercel serverless functions. The dashboard reads the latest database data whenever it is refreshed.
 
-The Neon database schema includes `admin_users`, `contact_submissions`, `newsletter_subscribers`, `analytics_events`, and `content_entries`. The `api/` folder contains the serverless endpoints; browser code never receives the database URL or JWT secret.
+The Neon database schema includes `admin_users`, `contact_submissions`, `newsletter_subscribers`, `analytics_events`, and `content_entries`. Analytics tracks anonymous sessions, page paths, referrer domains, and broad device categories without storing visitor names, emails, or IP addresses. The `api/` folder contains the serverless endpoints; browser code never receives the database URL or JWT secret.
 
 ### Vercel deployment
 
